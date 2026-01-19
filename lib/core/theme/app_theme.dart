@@ -19,7 +19,6 @@ class AppTheme {
         primary: primaryBrown,
         secondary: lightBrown,
         surface: creamBackground,
-        background: creamBackground,
       ),
       scaffoldBackgroundColor: creamBackground,
       textTheme: GoogleFonts.pressStart2pTextTheme().apply(

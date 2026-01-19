@@ -10,9 +10,9 @@ class ContactDetailPage extends ConsumerStatefulWidget {
   final int contactId;
   
   const ContactDetailPage({
-    Key? key,
+    super.key,
     required this.contactId,
-  }) : super(key: key);
+  });
 
   @override
   ConsumerState<ContactDetailPage> createState() => _ContactDetailPageState();

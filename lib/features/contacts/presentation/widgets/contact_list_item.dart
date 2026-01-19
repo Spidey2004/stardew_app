@@ -12,14 +12,14 @@ class ContactListItem extends StatelessWidget {
   final VoidCallback? onDelete;
   
   const ContactListItem({
-    Key? key,
+    super.key,
     required this.contact,
     required this.onTap,
     required this.onIncrementProximity,
     required this.onDecrementProximity,
     required this.onToggleGift,
     this.onDelete,
-  }) : super(key: key);
+  });
   
   @override
   Widget build(BuildContext context) {

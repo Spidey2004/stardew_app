@@ -9,13 +9,13 @@ class HeartIndicator extends StatelessWidget {
   final VoidCallback? onDecrement;
   
   const HeartIndicator({
-    Key? key,
+    super.key,
     required this.fullHearts,
     this.hasHalfHeart = false,
     this.maxHearts = 5,
     this.onIncrement,
     this.onDecrement,
-  }) : super(key: key);
+  });
   
   @override
   Widget build(BuildContext context) {
