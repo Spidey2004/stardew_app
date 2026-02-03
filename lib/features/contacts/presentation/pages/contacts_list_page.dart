@@ -7,7 +7,7 @@ import 'contact_detail_page.dart';
 
 
 class ContactsListPage extends ConsumerStatefulWidget {
-  const ContactsListPage({Key? key}) : super(key: key);
+  const ContactsListPage({super.key});
 
   @override
   ConsumerState<ContactsListPage> createState() => _ContactsListPageState();
@@ -151,8 +151,8 @@ class _ContactsListPageState extends ConsumerState<ContactsListPage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _showAddContactDialog,
-        child: Icon(Icons.add),
         tooltip: 'Adicionar Contato',
+        child: Icon(Icons.add),
       ),
     );
   }
